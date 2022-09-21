@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #202020;
+  font-family: "Open Sans", sans-serif;
+}
+.start {
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+.blue_text {
+  color: #007cef;
+}
+
+.start_text {
+  margin-top: 125px;
+}
+
+.hello_title {
+  font-size: 40px;
+}
+
+.start_title {
+  margin-top: -10px;
+  font-size: 60px;
+}
+
+.start_par {
+  font-size: 20px;
+}
+.hobbies {
+  margin-bottom: 100px;
+}
+.hobbies_title {
+  margin-bottom: 50px;
+}
+.hobbies_item_title {
+  margin-top: 100px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.hobbies_item_par {
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 400px;
+  color: #8c8c8c;
+}
+
+.first_hobby {
+  margin-bottom: 60px;
+}
+.experience_introduction_title {
+  margin-bottom: 20px;
+}
+.experience_introduction_par {
+  font-weight: 400;
+
+  text-align: center;
+
+  color: #8c8c8c;
+}
+
+.experience_introduction {
+  margin-bottom: 150px;
+}
+
+.experience_project_title {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.experience_project_par {
+  color: #8c8c8c;
+  margin-bottom: 50px;
+}
+
+.experience_project_item_title {
+  margin-top: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+.experience_project_item_par {
+  font-weight: 400;
+  text-align: center;
+  color: #8c8c8c;
+  font-size: 15px;
+}
+
+.experience {
+  margin-bottom: 100px;
+}
+
+.footer_TELEGA {
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .start_img {
+    width: 400px;
+    height: 400px;
+  }
+  .hobby_img {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 770px) {
+  .no_row {
+    flex-wrap: nowrap;
+    display: block;
+  }
+  .start_img {
+    width: 300px;
+    height: 300px;
+  }
+}

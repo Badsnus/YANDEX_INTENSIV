@@ -1,0 +1,187 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Типа инфа</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="{% static 'about/css/main.css' %}" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top mt-2">
+      <button
+        class="navbar-toggler collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarCollapse">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#start" id="start_button">Обо мне</a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#hobbies" id="hobbies_button">Увлечения</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience" id="experience_button">Опыт</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main> 
+      <section class="start" id="start">
+        <div class="container">
+          <div class="row">
+            <div class="col start_text">
+              <h2 class="hello_title blue_text">Здрасте,</h2>
+              <h1 class="text-white start_title">Я Антон</h1>
+              <p class="text-white start_par">
+                Мне кст 16 и я из Екатеринбурга. <br />Учусь в 10 классе.
+              </p>
+            </div>
+            <div class="col">
+              <img
+                src="{% static 'about/img/start_img.png' %}"
+                alt="img"
+                width="550"
+                height="550"
+                class="start_img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hobbies" id="hobbies">
+        <div class="container">
+          <h2 class="hobbies_title text-center blue_text">Мои увлечения</h2>
+          <div class="row first_hobby no_row">
+            <div class="col">
+            <img
+                src="{% static 'about/img/hobby_programm.png' %}"
+                alt="img"
+                width="500px"
+                height="429,5px"
+                class="hobby_img"
+              /></div>
+            <div class="col">
+                <h3 class="hobbies_item_title">
+                    Люблю писать код
+                </h3>
+                <p class="hobbies_item_par">
+                    Мне очень нравится писать код, сам не могу понять из-за 
+                    чего. Могу целыми днями сидеть и делать какой-то проект или
+                     же просто решать задачи по олимпиадному програмированию.
+                </p>
+            </div>
+          </div>
+          <div class="row no_row">
+            <div class="col">
+                <h3 class="hobbies_item_title">
+                    Занимаюсь спортом
+                </h3>
+                <p class="hobbies_item_par">
+                    Спорт уже давно стал частью моей жизни, так как наверное лет с 3 я постоянно чем-то з
+                    анимался. Хоть и занимаюсь я спортом почти всю жизнь, но я там крип, так что больше нич
+                    е не расскажу. А хотя я могу 34 раза подтянуться 😎.
+                </p>
+            </div>
+            <div class="col">
+                <img
+                    src="{% static 'about/img/hobby_sport.png' %}"
+                    alt="img"
+                    width="500px"
+                    height="429,5px"
+                    class="hobby_img"
+
+                  /></div>
+          </div>
+        </div>
+        </div>
+        </div>
+      </section>
+      <section class="experience" id="experience">
+          <div class="container">
+            <div class="experience_introduction">
+                            <h2 class="experience_introduction_title text-center blue_text">Мой опыт</h2>
+            <p class="experience_introduction_par">Первым раз что-то делать в програмирование я начал ~ 1 год назад. <br>
+                Серьезно начал увлекаться ~ полгода назад.
+                Программирую почти каждый день и пытаюсь научиться чему-нибудь новому.</p>
+            </div>
+            <div class="experience_projects">
+                <h2 class="experience_project_title">За это время я сделал <span class="blue_text">несколько проектов</span></h2>
+                <p class="experience_project_par">Вот некоторые из них:</p>
+                <div class="row no_row">
+                    <div class="col">
+                        <a href="https://t.me/official_stendshop_bot" target="blank">
+                            <img src="{% static 'about/img/stendshop.png' %}" alt="STENDSHOP" class="rounded mx-auto d-block" width="180" height="180">
+                            <h3 class="experience_project_item_title">STENDSHOP</h3>
+                            <p class="experience_project_item_par"> Бот для покупки игровой валюты standoff2. 
+                              Бота использовали 21290 человек.</p>
+</a>
+
+                    </div>
+                    <div class="col">
+                        <a href="https://fans.looky.su/" target="blank">
+                        <img src="{% static 'about/img/loofans.png' %}" alt="LOOFANS" class="rounded mx-auto d-block" width="180" height="180">
+                        <h3 class="experience_project_item_title">LOOFANS</h3>
+                        <p class="experience_project_item_par">Бот для монетизации авторского контента.
+                            Бота использовали 13819 человек и оборот бота 7k$.
+                            (я кст лох, получил всего 2к рубей, хотя у меня там должно было быть  несколько %))))
+                            
+                            </p></a>
+                    </div>
+                    <div class="col">
+                        <a href="https://t.me/official_stendgarant_bot" target="blank">
+                                                    <img src="{% static 'about/img/stendgarant.png' %}" alt="STENDGARANT" class="rounded mx-auto d-block" width="180" height="180">
+                        <h3 class="experience_project_item_title">STENDGARANT</h3>
+                        <p class="experience_project_item_par">Бот - автоматический гарант сделок. В боте всего лишь 355, так как проект пока что не активен.</p>
+                        </a>
+
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </section>
+      <footer>
+        <hr class="my-3 bg-secondary">
+        <div class="container">
+            <a target="blank", href="https://t.me/badsnus">
+            <p class="footer_TELEGA">Если что вот мой тг - @badsnus</p></a>
+        </div>
+        
+      </footer>
+    </main>
+  </body>
+  <script src="{% static 'about/js/script.js' %}"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+
+</html>
