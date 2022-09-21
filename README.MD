@@ -10,7 +10,7 @@
 
 #### 1)Клонируем репозиторий
 
-    git clone https://github.com/Badsnus/YANDEX_INTENSIV.git .
+    git clone https://github.com/Badsnus/YANDEX_INTENSIV.git
 
 #### 2)Создаем виртуальное окружение и активируем его
 
@@ -18,20 +18,24 @@
 
     Windows: venv\Scripts\activate.bat
     Linux и MacOS: source venv/bin/activate
-
-#### 3) Устанавливаем зависимости
-
-    pip install -r requirements.txt
-
-#### 4)Заходим в директорию проекта
+    
+#### 3)Заходим в директорию репозитория
 
     cd YANDEX_INTENSIV
 
-#### 5) .env_example -> .env
+#### 4) Устанавливаем зависимости
+
+    pip install -r requirements.txt
+
+#### 5)Заходим в директорию джанго проекта
+
+    cd YANDEX_INTENSIV
+
+#### 6) .env_example -> .env
 
     В YANDEX_INTENSIV есть файл .env_example его нужно переименовать в .env 
 
-#### 6) Запускам проект
+#### 7) Запускам проект
 
     python manage.py runserver
 
