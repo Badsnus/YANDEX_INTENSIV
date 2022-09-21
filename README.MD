@@ -10,7 +10,7 @@
 
 #### 1)Клонируем репозиторий
 
-    git clone https://github.com/Badsnus/YANDEX_INTENSIV.git
+    git clone https://github.com/Badsnus/YANDEX_INTENSIV.git .
 
 #### 2)Создаем виртуальное окружение и активируем его
 
