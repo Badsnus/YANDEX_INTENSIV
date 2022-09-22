@@ -39,3 +39,8 @@
 
     python manage.py runserver
 
+
+ССылка на видео
+---
+---
+https://disk.yandex.ru/i/IT-PXv8fhbdu9w
