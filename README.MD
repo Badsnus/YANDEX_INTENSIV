@@ -40,7 +40,7 @@
     python manage.py runserver
 
 
-ССылка на видео
+Ссылка на видео
 ---
 ---
 https://disk.yandex.ru/i/IT-PXv8fhbdu9w
